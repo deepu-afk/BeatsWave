@@ -4,7 +4,8 @@
   "description": "This will contain the backend code for the Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "build": "npm i"
   },
   "author": "Deepanshu Choudhary",
   "license": "ISC",

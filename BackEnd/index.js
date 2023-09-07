@@ -19,6 +19,8 @@ const port = 8080;
 app.use(cors());
 app.use(express.json());
 
+mongoose.set('strictQuery', false);
+
 // connect mongodb to our node app.
 // mongoose.connect() takes 2 arguments : 1. Which db to connect to (db url), 2. 2. Connection options
 mongoose

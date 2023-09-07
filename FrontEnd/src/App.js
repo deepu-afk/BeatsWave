@@ -17,7 +17,7 @@ function App() {
     const [currentSong, setCurrentSong] = useState(null);
     const [soundPlayed, setSoundPlayed] = useState(null);
     const [isPaused, setIsPaused] = useState(true);
-    const [cookie, setCookie] = useCookies(["token"]);
+    const [setCookie , cookie] = useCookies(["token"]);
 
     return (
         <div className="w-screen h-screen font-poppins">

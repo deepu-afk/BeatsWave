@@ -16,7 +16,7 @@ const LoggedInContainer = ({children, curActiveScreen}) => {
 
     const {
         currentSong,
-        setCurrentSong,
+        setCurntSong,
         soundPlayed,
         setSoundPlayed,
         isPaused,
